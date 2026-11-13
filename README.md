@@ -8,4 +8,4 @@ Headache entries and weather snapshots are saved only in the browser's local sto
 
 ## Deployment
 
-GitHub Pages publishes the static files from the repository. A workflow in `.github/workflows/pages.yml` deploys the site on pushes to `main`.
+GitHub Pages publishes the static files directly from the root of the `main` branch.
