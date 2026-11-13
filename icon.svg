@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+ <defs>
+  <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#273442"/><stop offset="1" stop-color="#46535e"/></linearGradient>
+  <linearGradient id="suit" x2="0" y2="1"><stop stop-color="#fffefa"/><stop offset="1" stop-color="#bfc5c6"/></linearGradient>
+  <linearGradient id="visor" x2="1" y2="1"><stop stop-color="#d6a663"/><stop offset=".45" stop-color="#775f52"/><stop offset="1" stop-color="#293b47"/></linearGradient>
+  <clipPath id="round"><rect width="512" height="512" rx="112"/></clipPath>
+ </defs>
+ <g clip-path="url(#round)">
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <!-- a quiet, pale lunar sky -->
+  <g fill="#fffdf4"><circle cx="68" cy="98" r="7"/><circle cx="183" cy="65" r="5"/><circle cx="348" cy="61" r="7"/><circle cx="462" cy="232" r="6"/><circle cx="83" cy="254" r="5"/><circle cx="281" cy="92" r="4"/></g>
+  <g fill="#f5d995"><path d="m148 74 8 20 20 8-20 8-8 20-8-20-20-8 20-8z"/><path d="m424 254 7 17 17 7-17 7-7 17-7-17-17-7 17-7z"/><path d="m380 70 5 13 13 5-13 5-5 13-5-13-13-5 13-5z"/><circle cx="235" cy="118" r="4"/></g>
+  <!-- Earth and the low, warm sun on the horizon -->
+  <circle cx="125" cy="174" r="55" fill="#638fa0" stroke="#f7f4eb" stroke-width="7"/>
+  <path d="M92 132c10-12 21-15 30-11l7 12-10 10 7 12-15 4-4 15-17-2-7 12-16-8 3-23 13-7 2-11zM143 172l14-9 12 9-5 13 12 12-7 19-17 8-9-16 5-12-9-10z" fill="#a9c3a8"/>
+  <circle cx="419" cy="164" r="68" fill="#e8bc70"/>
+  <path d="M354 185a68 68 0 0 0 130 0" fill="#d7ac69" opacity=".7"/>
+  <!-- distant lunar ridge -->
+  <path d="M0 360q91-48 177-11t167-1q79-37 168 7v157H0z" fill="#a9aaab"/>
+  <path d="M0 394q95-35 177-9t166 1q90-32 169 2v124H0z" fill="#85898b"/>
+  <g fill="#73787b" opacity=".65"><circle cx="54" cy="437" r="9"/><circle cx="464" cy="413" r="13"/><ellipse cx="87" cy="475" rx="19" ry="5"/><ellipse cx="425" cy="476" rx="23" ry="6"/></g>
+  <!-- Apollo-era astronaut, turned toward the rising sun -->
+  <!-- life-support pack -->
+  <path d="M151 232q-8-10 2-18l34-10q13-2 17 12l8 125-48 9-15-118z" fill="#92999a" stroke="#424e54" stroke-width="9" stroke-linejoin="round"/>
+  <path d="m164 232 35-9 4 38-37 7z" fill="#d6d9d6" stroke="#626b6d" stroke-width="5"/><path d="m171 282 36-7 3 44-34 7z" fill="#aeb5b4" stroke="#626b6d" stroke-width="5"/>
+  <!-- legs and boots -->
+  <path d="M207 355q35 4 58 1l-3 91-26 31-56-5 5-24 30-13-12-81z" fill="url(#suit)" stroke="#465258" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M259 351q31-4 54 7l-5 83 31 25-10 22-68-4-12-24 14-19-4-90z" fill="url(#suit)" stroke="#465258" stroke-width="10" stroke-linejoin="round"/>
+  <path d="m179 466 63 4-4 22-68 2q-13-6 9-28zM316 462l26 4q23 15 4 29l-70-2-3-20z" fill="#70797b" stroke="#3e494e" stroke-width="8" stroke-linejoin="round"/>
+  <!-- torso, shoulder and chest controls -->
+  <path d="M188 211q31-25 82-17l42 23 9 105q-50 47-119 24l-15-87z" fill="url(#suit)" stroke="#465258" stroke-width="11" stroke-linejoin="round"/>
+  <path d="M214 251q25-19 53-5l-4 37-46 10z" fill="#cbd1d0" stroke="#697275" stroke-width="5"/>
+  <path d="M221 262h32v24h-32z" fill="#d7ae68" stroke="#606a6d" stroke-width="4"/><circle cx="230" cy="274" r="3" fill="#465258"/><circle cx="243" cy="274" r="3" fill="#465258"/>
+  <!-- far arm lowered at the side -->
+  <path d="M298 226q31-10 41 18l24 52-24 25-32-47-24-18z" fill="url(#suit)" stroke="#465258" stroke-width="10" stroke-linejoin="round"/>
+  <path d="m353 292 20 2 9 22-14 16-20-11-7-16z" fill="#d6d8d4" stroke="#465258" stroke-width="8"/>
+  <!-- helmet in side profile, visor facing right -->
+  <path d="M190 190q-25-19-19-57 5-47 53-62 55-17 91 22 23 25 17 65l-15 35q-23 17-67 16-40-1-60-19z" fill="url(#suit)" stroke="#3e4b51" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M260 91q39-22 66 7 16 17 9 43-8 26-35 31l-42-8q13-21 7-73z" fill="url(#visor)" stroke="#34454d" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M286 93q19-6 31 5" fill="none" stroke="#f4d58e" stroke-width="7" stroke-linecap="round" opacity=".85"/>
+  <path d="M182 138q-5 25 8 43l19 13 6-14-13-24 3-27z" fill="#c1c8c8" stroke="#465258" stroke-width="7" stroke-linejoin="round"/>
+  <!-- neck seal and the arm in front -->
+  <path d="M196 188q35 19 80 7l12 21q-39 19-86 4z" fill="#7d8689" stroke="#465258" stroke-width="8"/>
+  <path d="M194 220q-20 14-17 44l4 49q12 18 29 7l8-55 25-20-14-25z" fill="url(#suit)" stroke="#465258" stroke-width="10" stroke-linejoin="round"/>
+  <path d="m177 305 18-4 13 13-7 20-18 5-13-15z" fill="#d4d7d3" stroke="#465258" stroke-width="8"/>
+  <!-- suit tailoring, joints, straps and glove fingers make the figure feel worn by a person -->
+  <path d="M204 222q21 12 40 7M271 226q18-8 31-2M204 320q34 14 66 3M206 343q21 8 41 6" fill="none" stroke="#7d8789" stroke-width="5" stroke-linecap="round"/>
+  <path d="m197 220 12 18m-13 5 14 15m92-37-12 16m9 7-12 14" fill="none" stroke="#91999a" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="199" cy="242" rx="12" ry="13" fill="#d7dad7" stroke="#626d70" stroke-width="5"/><ellipse cx="306" cy="243" rx="12" ry="13" fill="#d7dad7" stroke="#626d70" stroke-width="5"/>
+  <path d="M241 359q13-8 27 0l-2 20q-12 9-25 0zM280 359q12-8 25 1l-1 20q-11 8-24 0z" fill="#b9c0bf" stroke="#667073" stroke-width="5"/>
+  <path d="m170 324 17 5m-15 6 16 5m145-49 13-6m-10 13 14-6" fill="none" stroke="#6c7679" stroke-width="4" stroke-linecap="round"/>
+  <path d="M117 218q21 11 41 15M120 229l18 12" fill="none" stroke="#626d70" stroke-width="5" stroke-linecap="round"/>
+  <path d="m177 332 8 6m-4-12 7 6m168-18 8-5m-4 12 8-5" fill="none" stroke="#4b5558" stroke-width="3" stroke-linecap="round"/>
+  <!-- simple mission patch -->
+  <path d="m284 242 22 5-3 29-23-7z" fill="#f6f0de" stroke="#667073" stroke-width="4"/><path d="m284 246 20 5-1 8-20-5zm-1 13 20 5-1 8-20-5z" fill="#b85045"/>
+  <!-- foreground moon dust -->
+  <path d="M0 489q116-25 219-1t293-3v27H0z" fill="#6e7476"/>
+ </g>
+</svg>

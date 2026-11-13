@@ -1,0 +1,15 @@
+{
+  "name": "そらと頭痛 — 気圧と体調の記録",
+  "short_name": "そらと頭痛",
+  "lang": "ja",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fbfcf9",
+  "theme_color": "#f6f6f2",
+  "description": "気圧と片頭痛の記録を自分の端末に保存します。",
+  "icons": [
+    { "src": "icon-192-v6.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512-v6.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
