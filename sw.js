@@ -1,4 +1,4 @@
-const CACHE = 'sora-headache-v6';
+const CACHE = 'sora-headache-v7';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icon.svg', './apple-touch-icon-v6.png', './icon-192-v6.png', './icon-512-v6.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(FILES)));
